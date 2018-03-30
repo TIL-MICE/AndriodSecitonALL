@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Activity信息传递案例</string>
+    <string name="title_activity_data">信息接收</string>
+</resources>

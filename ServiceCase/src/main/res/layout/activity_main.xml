@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service调用案例" />
+
+    <Button
+
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动service"/>
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关闭Service"/>
+
+    <TextView
+        android:id="@+id/showSign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service调用案例" />
+
+    <Button
+        android:id="@+id/doBindService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="绑定Service"/>
+
+    <Button
+        android:id="@+id/getService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="调用已绑定Service"/>
+
+    <Button
+        android:id="@+id/undoService"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="解除已绑定Service"/>
+
+    <Button
+        android:id="@+id/getProcess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="主线程获取进程进度"/>
+
+    <Button
+        android:id="@+id/autoGetProcess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="子线程主动提交进程进度"/>
+</LinearLayout>

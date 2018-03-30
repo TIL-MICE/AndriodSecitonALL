@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AIDLClient/AIDLClient.iml" filepath="$PROJECT_DIR$/AIDLClient/AIDLClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AIDLService/AIDLService.iml" filepath="$PROJECT_DIR$/AIDLService/AIDLService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ActivityCase/ActivityCase.iml" filepath="$PROJECT_DIR$/ActivityCase/ActivityCase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdapterCase/AdapterCase.iml" filepath="$PROJECT_DIR$/AdapterCase/AdapterCase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AlertDialog/AlertDialog.iml" filepath="$PROJECT_DIR$/AlertDialog/AlertDialog.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BroadcastCase/BroadcastCase.iml" filepath="$PROJECT_DIR$/BroadcastCase/BroadcastCase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BroadcastReceive/BroadcastReceive.iml" filepath="$PROJECT_DIR$/BroadcastReceive/BroadcastReceive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CanvasDemo/CanvasDemo.iml" filepath="$PROJECT_DIR$/CanvasDemo/CanvasDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CheckBox/CheckBox.iml" filepath="$PROJECT_DIR$/CheckBox/CheckBox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ContentProviderCase/ContentProviderCase.iml" filepath="$PROJECT_DIR$/ContentProviderCase/ContentProviderCase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ContentResolver/ContentResolver.iml" filepath="$PROJECT_DIR$/ContentResolver/ContentResolver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DoubleDatePicker/DoubleDatePicker.iml" filepath="$PROJECT_DIR$/DoubleDatePicker/DoubleDatePicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FileDownLoad/FileDownLoad.iml" filepath="$PROJECT_DIR$/FileDownLoad/FileDownLoad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FragmentCase/FragmentCase.iml" filepath="$PROJECT_DIR$/FragmentCase/FragmentCase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HttpCase/HttpCase.iml" filepath="$PROJECT_DIR$/HttpCase/HttpCase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntentCase/IntentCase.iml" filepath="$PROJECT_DIR$/IntentCase/IntentCase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListView/ListView.iml" filepath="$PROJECT_DIR$/ListView/ListView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MusicPlayerService/MusicPlayerService.iml" filepath="$PROJECT_DIR$/MusicPlayerService/MusicPlayerService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SQLite/SQLite.iml" filepath="$PROJECT_DIR$/SQLite/SQLite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SQLiteList/SQLiteList.iml" filepath="$PROJECT_DIR$/SQLiteList/SQLiteList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SectionAll.iml" filepath="$PROJECT_DIR$/SectionAll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ServiceCase/ServiceCase.iml" filepath="$PROJECT_DIR$/ServiceCase/ServiceCase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SettingFragment/SettingFragment.iml" filepath="$PROJECT_DIR$/SettingFragment/SettingFragment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ShakeSensor/ShakeSensor.iml" filepath="$PROJECT_DIR$/ShakeSensor/ShakeSensor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StorageCase/StorageCase.iml" filepath="$PROJECT_DIR$/StorageCase/StorageCase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ThreadCase/ThreadCase.iml" filepath="$PROJECT_DIR$/ThreadCase/ThreadCase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VideoPlayer/videoplayer.iml" filepath="$PROJECT_DIR$/VideoPlayer/videoplayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/VideoView/VideoView.iml" filepath="$PROJECT_DIR$/VideoView/VideoView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ViewPager/ViewPager.iml" filepath="$PROJECT_DIR$/ViewPager/ViewPager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/XML/XML.iml" filepath="$PROJECT_DIR$/XML/XML.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

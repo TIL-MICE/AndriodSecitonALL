@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_margin="15dp"
+    android:padding="5dp"
+    tools:context="com.lckiss.activitydemo.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/registUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账号" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入账号" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/registUserpwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/registUsername"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密码" />
+
+        <EditText
+            android:id="@+id/pwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入密码" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/Sex"
+        android:orientation="horizontal"
+        android:layout_below="@id/registUserpwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="男" />
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/firstLast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Sex"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/openCamera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="打开相机案例" />
+
+        <Button
+            android:id="@+id/send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="提交用户信息" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/secondDemo"
+        android:layout_below="@id/firstLast"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="案例一：装备选择"/>
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="快给宝宝加装备吧"/>
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/thirdDemo"
+        android:layout_below="@id/secondDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="生命值："
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp"
+                />
+
+            <ProgressBar
+                android:id="@+id/progressBarLife"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/life_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0"
+                android:gravity="center"
+                android:textColor="#000000"
+                />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="攻击力："
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp"
+                />
+
+            <ProgressBar
+                android:id="@+id/progressBarAttack"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/Attack_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0"
+                android:gravity="center"
+                android:textColor="#000000"
+                />
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="敏捷："
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp"
+                />
+
+            <ProgressBar
+                android:id="@+id/progressBarSpeed"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/Speed_text"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="0"
+                android:gravity="center"
+                android:textColor="#000000"
+                />
+        </TableRow>
+    </TableLayout>
+    <RelativeLayout
+        android:layout_below="@id/thirdDemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/buy"
+            android:onClick="click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="小宝宝购买装备"/>
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   <EditText
+       android:id="@+id/et_inputpath"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="1.mp3"/>
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/bt_play"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:drawablePadding="3dp"
+            android:text="播放"
+            android:drawableTop="@android:drawable/ic_media_play"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/bt_pause"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:drawablePadding="3dp"
+            android:layout_width="0dp"
+            android:text="暂停"
+            android:drawableTop="@android:drawable/ic_media_pause"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/bt_replay"
+            android:gravity="center"
+            android:drawablePadding="3dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="重播"
+            android:drawableTop="@android:drawable/ic_media_play"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/bt_stop"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:drawablePadding="3dp"
+            android:layout_width="0dp"
+            android:text="停止"
+            android:drawableTop="@android:drawable/ic_media_pause"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>
